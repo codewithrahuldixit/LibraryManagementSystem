@@ -1,18 +1,43 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Home Page</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Home Page</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-	<link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
 </head>
 
 <body>
 	<div th:insert="fragments/header :: header"></div>
+	
+	 <div
+          class="flex flex-col w-full md:w-2/5 justify-center items-start text-left md:text-left"
+        >
+          <!-- <p class="uppercase tracking-loose w-full">What business are you?</p> -->
+          <h1 class="margin-10 my-4 text-5xl font-bold leading-tight">
+           Library Management System
+          </h1>
+          <p class="leading-normal text-2xl mb-8">
+           Online Library Management System is a system which maintains the information
+about the books present in the library, their authors, the members of library to whom
+books are issued, library staff and all. This is very difficult to organize manually.
+Maintenance of all this information manually is a very complex task.
+Owing to the advancement of technology, organization of an Online Library becomes
+much simple. The Online Library Management has been designed to computerize and
+automate the operations performed over the information about the members, book
+issues and returns and all other operations. This computerization of library helps in
+many instances of its maintenances. It reduces the workload of management as most of
+the manual work done is reduced	
+          </p>
+        
+        </div>
+       
 
 </body>
+
 </html>
