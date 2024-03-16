@@ -12,7 +12,8 @@ import com.balram.librarymanagementsystem.entity.Category;
 import com.balram.librarymanagementsystem.entity.Publisher;
 import com.balram.librarymanagementsystem.service.BookService;
 
-@SpringBootApplication(exclude = SecurityAutoConfiguration.class)
+@SpringBootApplication
+//(exclude = SecurityAutoConfiguration.class)
 public class LibrarymanagementsystemApplication {
 
 	public static void main(String[] args) {
